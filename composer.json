@@ -1,0 +1,19 @@
+{
+    "name": "shaun-mckinnon/lesson-01",
+    "description": "My First Application",
+    "autoload": {
+        "psr-4": {
+            "ShaunMckinnon\\Lesson01\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Shaun McKinnon",
+            "email": "shaun.mckinnon@georgiancollege.ca"
+        }
+    ],
+    "require": {},
+    "scripts": {
+        "test": "phpunit --coverage-html coverage --whitelist ./src --colors=\"always\" --testdox ./tests"
+    }
+}
